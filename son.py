@@ -181,7 +181,12 @@ while run:
        if score >= goal:
            finish = True
            window.blit(win, (200, 200))
- 
+
+
+naber = 100
+#NABER NASILSIN
+
+
        #ekrana metin yazıyoruz
        text = font2.render("Sayı: " + str(score), 1, (255, 255, 255))
        window.blit(text, (10, 20))
